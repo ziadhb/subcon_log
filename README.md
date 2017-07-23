@@ -35,7 +35,7 @@ The database has the following tables:
 | ScBSCode         | varchar(8)           | YES  | UNI | NULL    |       |
 
 
-#### 2- subcontracts
+### 2- subcontracts
 
 
 | Field             | Type                 | Null | Key | Default | Extra |
@@ -49,7 +49,7 @@ The database has the following tables:
 | remarks           | varchar(50)          | YES  |     | NULL    |       |
 
 
-#### 3- bonds
+### 3- bonds
 
 | Field          | Type                   | Null | Key | Default | Extra |
 |----------------|------------------------|------|-----|---------|-------|
@@ -65,7 +65,7 @@ The database has the following tables:
 | notes          | varchar(50)            | NO   |     | NULL    |       |
 
 
-#### 4- subcontractor_payment_cert
+### 4- subcontractor_payment_cert
 
 | Field          | Type                 | Null | Key | Default | Extra |
 |----------------|----------------------|------|-----|---------|-------|
@@ -88,7 +88,7 @@ The database has the following tables:
 | remarks        | varchar(50)          | YES  |     | NULL    |       |
 
 
-#### 5- subcontractor_payment_transaction
+### 5- subcontractor_payment_transaction
 
 
 | Field        | Type                 | Null | Key | Default | Extra |
@@ -102,7 +102,7 @@ The database has the following tables:
 
 
 
-#### 6- users
+### 6- users
 
 
 | Field    | Type         | Null | Key | Default | Extra          |
