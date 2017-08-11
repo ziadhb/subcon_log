@@ -1,3 +1,7 @@
+<?php 
+ob_start();
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +13,6 @@
 <a href='subcontractors.php'><h1>TG2007</h1></a>
 <?php
 
-ob_start();
-session_start();
 if (!isset($_SESSION['userName'])) {
   header("Location: login.php");
 }

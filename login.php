@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+ob_start();?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,6 @@
 <body>
 	<?php
 		ob_start();
-		
 		//CONNECT TO DATABASE
 		include 'db_connection.php';
 		//CHECK IF ALREADY LOGGED IN THEN GO TO HOMEPAGE

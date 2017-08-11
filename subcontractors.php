@@ -1,3 +1,7 @@
+<?php 
+ob_start();
+session_start();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -35,8 +39,6 @@
     <a href="/add_subcontractor.html">Add new subcontractor</a><br><br>
 
     <?php
-    ob_start();
-    session_start();
     if (!isset($_SESSION['userName'])) {
       header("Location: login.php");
     }
